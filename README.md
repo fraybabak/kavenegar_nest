@@ -8,7 +8,7 @@ kavenegar api in nestjs code style.
 
 
 
-``` npm i kavenegar_nest ```
+``` npm i @fraybabak/kavenegar_nest ```
 
 
 
@@ -19,7 +19,7 @@ Import **kavenegarModule** inside your module:
 ```
 // inside SmsModule*.module.ts
 
-import { KavenegarModule } from "kavenegar_nest"
+import { KavenegarModule } from "@fraybabak/kavenegar_nest"
 
 @Module({
   imports:[
@@ -39,7 +39,7 @@ Inject **KavenegarService** into your service:
 ```
 // inside SmsService*.service.ts
 
-import { KavenegarService } from "kavenegar_nest";
+import { KavenegarService } from "@fraybabak/kavenegar_nest";
 
 // example message types based on http://kavenegar.com/rest.html
 export interface sendMessage {
