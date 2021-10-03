@@ -4,7 +4,6 @@ import { kavenegarOptions  } from './kavenegar.interface';
 jest.setTimeout(250000)
 describe('KavenegarService', () => {
   let service: KavenegarService;
-  let options: kavenegarOptions
 
   beforeEach(async () => {
   
