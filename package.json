@@ -1,6 +1,6 @@
 {
   "name": "@fraybabak/kavenegar_nest",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "kavenegar api in nestjs code style.",
   "main": "dist/index",
   "types": "dist/index",
