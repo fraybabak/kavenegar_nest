@@ -1,6 +1,6 @@
 {
   "name": "kavenegar_nest",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "kavenegar api in nestjs code style.",
   "main": "dist/index",
   "types": "dist/index",
@@ -39,5 +39,9 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fraybabak/kavenegar_nest/issues"
+  },
+  "homepage": "https://github.com/fraybabak/kavenegar_nest#readme"
 }
