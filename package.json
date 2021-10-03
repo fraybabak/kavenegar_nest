@@ -1,0 +1,43 @@
+{
+  "name": "kavenegar_nest",
+  "version": "1.0.1",
+  "description": "kavenegar api in nestjs code style.",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^8.0.9",
+    "@types/jest": "^27.0.2",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^12.6.2",
+    "jest": "^27.2.4",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^27.0.5",
+    "typescript": "^3.5.3"
+  },
+  "author": "fraybabak",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^8.0.9"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
